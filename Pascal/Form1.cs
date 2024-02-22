@@ -26,6 +26,7 @@ namespace Pascal
                     int x = Faktorialis(sor) / (Faktorialis(oszlop) * Faktorialis(sor - oszlop));
 
                     button.Text = x.ToString();
+
                 }
             }
         }
