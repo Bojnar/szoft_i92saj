@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VillogoGomb", "VillogoGomb\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzamoloGomb", "SzamoloGomb\SzamoloGomb.csproj", "{54D227B8-66EE-4E61-9378-0B157A9A8585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zh1_gyak", "zh1_gyak\zh1_gyak.csproj", "{B8314E5D-D2A6-4D0A-9A43-02055A441A9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zh1_gyak", "zh1_gyak\zh1_gyak.csproj", "{B8314E5D-D2A6-4D0A-9A43-02055A441A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zh1_gyak2", "zh1_gyak2\zh1_gyak2.csproj", "{ACEBEB40-308E-4722-8FE5-3E1339F4D58E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B8314E5D-D2A6-4D0A-9A43-02055A441A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8314E5D-D2A6-4D0A-9A43-02055A441A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8314E5D-D2A6-4D0A-9A43-02055A441A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEBEB40-308E-4722-8FE5-3E1339F4D58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEBEB40-308E-4722-8FE5-3E1339F4D58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEBEB40-308E-4722-8FE5-3E1339F4D58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEBEB40-308E-4722-8FE5-3E1339F4D58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

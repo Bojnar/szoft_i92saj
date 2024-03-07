@@ -1,5 +1,8 @@
+using System.Diagnostics;
+
 namespace Fibonacci
 {
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
     public partial class Form1 : Form
     {
         public Form1()
@@ -37,5 +40,9 @@ namespace Fibonacci
             return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
 
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
 }
