@@ -30,7 +30,7 @@ namespace _7het
                 countryList.Add(item);
             }
 
-            //sr.Close();
+            sr.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
