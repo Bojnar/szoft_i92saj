@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7het", "7het\7het.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH2_gyak1", "ZH2_gyak1\ZH2_gyak1.csproj", "{5D304E98-A008-4335-BF5B-89646E4419A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH2_gyak2", "ZH2_gyak2\ZH2_gyak2.csproj", "{5597A038-52A1-4484-A639-EA8DE7E4CC83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{5D304E98-A008-4335-BF5B-89646E4419A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D304E98-A008-4335-BF5B-89646E4419A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D304E98-A008-4335-BF5B-89646E4419A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5597A038-52A1-4484-A639-EA8DE7E4CC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5597A038-52A1-4484-A639-EA8DE7E4CC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5597A038-52A1-4484-A639-EA8DE7E4CC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5597A038-52A1-4484-A639-EA8DE7E4CC83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
