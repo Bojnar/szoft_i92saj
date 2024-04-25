@@ -38,6 +38,10 @@
             isActiveDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
             studentBindingSource = new BindingSource(components);
             saveButton = new Button();
+            id = new TextBox();
+            neptun = new TextBox();
+            name = new TextBox();
+            editButton = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)studentBindingSource).BeginInit();
             SuspendLayout();
@@ -49,10 +53,10 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, neptunDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, birthDateDataGridViewTextBoxColumn, averageGradeDataGridViewTextBoxColumn, isActiveDataGridViewCheckBoxColumn });
             dataGridView1.DataSource = studentBindingSource;
-            dataGridView1.Location = new Point(39, 31);
+            dataGridView1.Location = new Point(36, 185);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(719, 311);
+            dataGridView1.Size = new Size(724, 224);
             dataGridView1.TabIndex = 0;
             // 
             // idDataGridViewTextBoxColumn
@@ -97,7 +101,7 @@
             // 
             // saveButton
             // 
-            saveButton.Location = new Point(683, 379);
+            saveButton.Location = new Point(703, 415);
             saveButton.Name = "saveButton";
             saveButton.Size = new Size(75, 23);
             saveButton.TabIndex = 1;
@@ -105,11 +109,49 @@
             saveButton.UseVisualStyleBackColor = true;
             saveButton.Click += saveButton_Click;
             // 
+            // id
+            // 
+            id.DataBindings.Add(new Binding("Text", studentBindingSource, "Id", true));
+            id.Location = new Point(36, 22);
+            id.Name = "id";
+            id.Size = new Size(256, 23);
+            id.TabIndex = 2;
+            // 
+            // neptun
+            // 
+            neptun.DataBindings.Add(new Binding("Text", studentBindingSource, "Neptun", true));
+            neptun.Location = new Point(36, 71);
+            neptun.Name = "neptun";
+            neptun.Size = new Size(256, 23);
+            neptun.TabIndex = 3;
+            // 
+            // name
+            // 
+            name.DataBindings.Add(new Binding("Text", studentBindingSource, "Name", true));
+            name.Location = new Point(36, 122);
+            name.Name = "name";
+            name.Size = new Size(256, 23);
+            name.TabIndex = 4;
+            // 
+            // editButton
+            // 
+            editButton.Location = new Point(426, 71);
+            editButton.Name = "editButton";
+            editButton.Size = new Size(75, 23);
+            editButton.TabIndex = 5;
+            editButton.Text = "Edit";
+            editButton.UseVisualStyleBackColor = true;
+            editButton.Click += editButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(editButton);
+            Controls.Add(name);
+            Controls.Add(neptun);
+            Controls.Add(id);
             Controls.Add(saveButton);
             Controls.Add(dataGridView1);
             Name = "Form1";
@@ -118,6 +160,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)studentBindingSource).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -131,5 +174,9 @@
         private DataGridViewCheckBoxColumn isActiveDataGridViewCheckBoxColumn;
         private BindingSource studentBindingSource;
         private Button saveButton;
+        private TextBox id;
+        private TextBox neptun;
+        private TextBox name;
+        private Button editButton;
     }
 }
