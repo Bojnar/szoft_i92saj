@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH2_gyak2", "ZH2_gyak2\ZH2_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemotelDbTest", "RemotelDbTest\RemotelDbTest\RemotelDbTest.csproj", "{9BCD929E-020F-4709-9947-74C6CBCAC0A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adatb_kliens", "adatb_kliens\adatb_kliens.csproj", "{13C7E398-B852-4181-AD49-8CD67B88CFEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{9BCD929E-020F-4709-9947-74C6CBCAC0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BCD929E-020F-4709-9947-74C6CBCAC0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BCD929E-020F-4709-9947-74C6CBCAC0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C7E398-B852-4181-AD49-8CD67B88CFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C7E398-B852-4181-AD49-8CD67B88CFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C7E398-B852-4181-AD49-8CD67B88CFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C7E398-B852-4181-AD49-8CD67B88CFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
